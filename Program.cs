@@ -50,7 +50,6 @@ class Programa
     {
         Asignaturas.Add(asignatura);
     }
-
     public void ImprimirDiagramaGeneral()
     {
         Console.WriteLine("\n+--------------------+");
