@@ -40,3 +40,31 @@ class Profesor
         Console.WriteLine("+--------------------+");
     }
 }
+
+class Programa 
+{
+    public string Nombre { get; set; }
+    public List<Asignatura> Asignaturas { get; set; } = new List<Asignatura>();
+
+    public void AgregarAsignatura(Asignatura asignatura)
+    {
+        Asignaturas.Add(asignatura);
+    }
+
+    public void ImprimirDiagramaGeneral()
+    {
+        Console.WriteLine("\n+--------------------+");
+        Console.WriteLine("|      Programa      |");
+        Console.WriteLine("+--------------------+");
+        Console.WriteLine($"| Nombre: {Nombre}");
+        Console.WriteLine("+--------------------+");
+
+        foreach (var a in Asignaturas)
+        {
+            Console.WriteLine($"| - {a.Nombre} ({a.Codigo})");
+        }
+
+        Console.WriteLine("=======================================\n");
+    }
+}
+
