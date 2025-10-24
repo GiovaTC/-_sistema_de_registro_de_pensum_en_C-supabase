@@ -1,6 +1,8 @@
 
 # 📘 Sistema de Registro de Pensum en C# + Supabase
 
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/8e3495a7-5874-463f-bd31-a6d6cf5cfb3d" />    
+
 Aplicación de consola desarrollada en **Visual Studio 2022 (.NET)** para registrar asignaturas del programa académico **Ingeniería de Sistemas**, aplicando principios de **Programación Orientada a Objetos** y almacenamiento en la nube con **Supabase**.
 
 ---
