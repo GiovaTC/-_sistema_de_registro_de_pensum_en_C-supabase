@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "sistema_de_registro/1.0.0": {
+        "runtime": {
+          "sistema_de_registro.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "sistema_de_registro/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
